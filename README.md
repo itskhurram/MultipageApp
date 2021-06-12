@@ -1,8 +1,12 @@
-# MVC Website using MVC Core 6 Empty Project with Bootstrap 5
+# Multipage App using MVC .NET Core and Angular 12 and Bootstrap5
 
-## This is part 1 of series of building Multipage App using MVC .NET Core and Angular 12
+## This is multipart series of building Multipage App using MVC .NET Core and Angular 12
+
+# PART 2 (Building WebComponent from Angular Component)
+[![Building WebComponent from Angular Component](https://github.com/itskhurram/MultipageApp/blob/master/PART2Thumbnain.PNG)](https://youtu.be/YrKPNCNAIEM&feature=youtu.be&hd=1 "Building WebComponent from Angular Component")
 
 
-[![MVC Website using MVC Core 6 Empty Project with Bootstrap 5](https://github.com/itskhurram/MultipageApp/blob/master/BitofAi.PNG)](https://youtu.be/tkR451bSyiE&feature=youtu.be&hd=1 "MVC Website using MVC Core 6 Empty Project with Bootstrap 5")
+# PART 1 (Building MVC Website from Empty .NET6 Project)
+[![MVC Website using MVC .NET 6 Empty Project with Bootstrap 5](https://github.com/itskhurram/MultipageApp/blob/master/BitofAi.PNG)](https://youtu.be/tkR451bSyiE&feature=youtu.be&hd=1 "MVC Website using MVC .NET 6 Empty Project with Bootstrap 5")
 
 
