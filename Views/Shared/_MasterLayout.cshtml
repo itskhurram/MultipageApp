@@ -32,7 +32,7 @@
 							<a class="nav-link" asp-controller="Contact" asp-action="Index">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled" href="#">App</a>
+							<a class="nav-link" asp-controller="App" asp-action="Index" >App</a>
 						</li>
 					</ul>
 				</div>
@@ -40,16 +40,14 @@
 		</nav>
 
 	</header>
-	<div class="container px-2">
-		<div>
-			<app-welcome></app-welcome>
-		</div>
+	<div class="px-1">
+		
 		<div>
 			@RenderBody()
 		</div>
 	</div>
 	<footer class="border-top footer text-muted">
-		<div class="container px-2">
+		<div class="px-1">
 			&copy; 2021 Bit of Ai <a asp-controller="Privacy" asp-action="Index">Privacy </a>
 		</div>
 	</footer>
