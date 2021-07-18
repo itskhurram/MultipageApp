@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angularapps",
+            "outputPath": "../wwwroot/parentapp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -115,7 +115,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/childapp",
+            "outputPath": "../wwwroot/childapp",
             "index": "projects/childapp/src/index.html",
             "main": "projects/childapp/src/main.ts",
             "polyfills": "projects/childapp/src/polyfills.ts",

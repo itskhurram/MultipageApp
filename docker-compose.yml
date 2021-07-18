@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  multipageapp:
+    image: ${DOCKER_REGISTRY-}multipageapp
+    build:
+      context: .
+      dockerfile: Dockerfile

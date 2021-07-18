@@ -2,6 +2,7 @@ using System;
 using System.IO;
 
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -19,20 +20,15 @@ app.UseStaticFiles();
 
 //app.MapGet("/", (Func<string>)(() => "Hello World!"));
 
-app.Map("/angularapps/childapp", builder =>
+app.Map(new PathString("/angularapps/childapp"), builder =>
 {
     builder.UseSpa(spa =>
     {
-        if (app.Environment.IsDevelopment()) {
-            spa.UseProxyToSpaDevelopmentServer($"http://localhost:4201/");
-        }
-        else {
-            var staticPath = Path.Combine(
-                Directory.GetCurrentDirectory(), $"wwwroot/angularapps/dist/chaildapp");
-            var fileOptions = new StaticFileOptions { FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(staticPath) };
-            builder.UseSpaStaticFiles(options: fileOptions);
-            spa.Options.DefaultPageStaticFileOptions = fileOptions;
-        }
+        var staticPath = Path.Combine(
+                Directory.GetCurrentDirectory(), $"wwwroot/childapp");
+        var fileOptions = new StaticFileOptions { FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(staticPath) };
+        builder.UseSpaStaticFiles(options: fileOptions);
+        spa.Options.DefaultPageStaticFileOptions = fileOptions;
     });
 });
 
