@@ -2,8 +2,10 @@
 
 ## This is multipart series of building Multipage App using MVC .NET Core and Angular 12
 
+# PART 4 (Must Learn Method of Dockerize MVC & Angular App)
+[![Must Learn Method of Dockerize MVC & Angular App](https://github.com/itskhurram/MultipageApp/blob/master/Dockerize.png)](https://youtu.be/nZ-B3V9_knw?list=PLwnOvXwEi69GOK89PdXMeZuwYiW_Wy8Um&t=44&feature=youtu.be&hd=1 "Must Learn Method of Dockerize MVC & Angular App")
 
-# PART 3 (Adding 2 Angular SPA in MVC Website)  https://youtu.be/SVTumnP0mfw?t=4
+# PART 3 (Adding 2 Angular SPA in MVC Website)
 [![Adding 2 Angular SPA in MVC Website](https://github.com/itskhurram/MultipageApp/blob/master/part3Thumbnail.png)](https://youtu.be/SVTumnP0mfw?t=4&feature=youtu.be&hd=1 "Adding 2 Angular SPA in MVC Website")
 
 
